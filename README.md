@@ -5,7 +5,10 @@ This project aims to develop a robust credit card fraud detection system using m
 
 Key components of the project include:
 
-Data preprocessing: Cleaning and transforming the dataset to prepare it for analysis.
+Data preprocessing:- Cleaning and transforming the dataset to prepare it for analysis.
+
 Exploratory data analysis: Understanding the characteristics and patterns of fraudulent and legitimate transactions.
+
 Model selection and training: Experimenting with different machine learning algorithms to identify the most effective model.
+
 Model evaluation: Assessing the performance of each model using metrics such as accuracy, precision, recall, and F1-score.
