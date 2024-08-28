@@ -210,7 +210,7 @@ from sklearn.metrics import classification_report
 # Instantiate a GradientBoostingClassifier model with specified parameters
 # 'n_estimators=50' sets the number of boosting stages (trees) to 50
 # 'learning_rate=1.0' controls the contribution of each tree in the sequence
-# 'max_depth=1' sets the maximum depth of the individual trees to 1
+# 'max_depth=1' sets the maximum depth of the individual trees to 1 ,limiting depth helps to prevent overfitting
 # 'random_state=0' ensures reproducibility of results
 gbc = GradientBoostingClassifier(n_estimators=50, learning_rate=1.0, max_depth=1, random_state=0)
 
